@@ -1,0 +1,13 @@
+prefix=C:/genai/projects/RESUMESCREEN/venv/Library
+exec_prefix=C:/genai/projects/RESUMESCREEN/venv/Library
+libdir=C:/genai/projects/RESUMESCREEN/venv/Library/lib
+sharedlibdir=C:/genai/projects/RESUMESCREEN/venv/Library/lib
+includedir=C:/genai/projects/RESUMESCREEN/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
